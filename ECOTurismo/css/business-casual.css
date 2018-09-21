@@ -1,0 +1,481 @@
+/*!
+ * Start Bootstrap - Business Casual v5.0.0 (https://startbootstrap.com/template-overviews/business-casual)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/master/LICENSE)
+ */
+
+body {
+    font-family:  'OpenSans-Bold';
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(220, 217, 217, 0.16))), url("../img/EstradaReal.jpg");
+    background: linear-gradient(rgba(14, 21, 90, 0.65)), url("../img/EstradaReal.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: ranchoRegular;
+    src: url('../css/font/Rancho-Regular.ttf');
+}
+
+@font-face {
+    font-family: goodVibes;
+    src: url('../css/font/GoodVibes.otf');
+}
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url('../css/font/OpenSans-Bold.ttf');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+}
+
+p {
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+.text-faded {
+    color: rgba(63, 79, 54, 0.3);
+}
+
+.site-heading {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.site-heading .site-heading-upper {
+    color: rgba(85, 119, 166, 0.65);
+    -webkit-text-stroke-width: 1.5px; /* largura da borda */
+    -webkit-text-stroke-color: #3f4f36; /* cor da borda */
+    font-family: 'OpenSans-Bold';
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 800;
+
+}
+
+.site-heading .site-heading-lower {
+    color: rgba(127, 145, 71, 0.65);
+    -webkit-text-stroke-width: 2px; /* largura da borda */
+    -webkit-text-stroke-color: #3f4f36; /* cor da borda */
+    font-family: 'ranchoRegular';
+    font-size: 5rem;
+    font-weight: 200;
+    line-height: 3rem;
+}
+
+.page-section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.section-heading {
+    text-transform: uppercase;
+}
+
+.section-heading .section-heading-upper {
+    color: rgba(104, 90, 217, 0.65);
+    display: block;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.section-heading .section-heading-lower {
+    color: rgba(85, 119, 166, 0.65);
+    font-family: "Arial Black";
+    display: block;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.bg-faded {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(141, 136, 43, 0.26))), url("../img/texturaPapel.jpg");
+    background-color: rgba(255, 255, 255, 0.85);
+
+}
+
+#mainNav {
+    background-color: rgba(122, 99, 67, 0.71);
+    font-family: 'Raleway';
+}
+
+#mainNav .navbar-brand {
+    color: #775f2e;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: rgba(199, 247, 179, 0.7);
+    font-size: 3rem;
+    -webkit-text-stroke-width: 0.4px; /* largura da borda */
+    -webkit-text-stroke-color: #83a172; /* cor da borda */
+    font-weight: 900;
+}
+
+#mainNav .navbar-nav .nav-item.active .nav-link {
+    color: rgb(73, 61, 203);
+}
+
+@media (min-width: 992px) {
+    #mainNav .navbar-nav .nav-item .nav-link {
+        font-size: 0.9rem;
+    }
+
+    #mainNav .navbar-nav .nav-item .nav-link:hover {
+        color: #e6a756;
+    }
+
+    #mainNav .navbar-nav .nav-item.active .nav-link:hover {
+        color: #e6a756;
+    }
+}
+
+
+.btn-xl {
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.intro {
+    position: relative;
+}
+
+@media (min-width: 992px) {
+    .intro .intro-img {
+        width: 80%;
+        float: right;
+    }
+    .intro .intro-text {
+        left: 0;
+        width: 60%;
+        margin-top: 3rem;
+        position: absolute;
+    }
+    .intro .intro-text .intro-button {
+        width: 100%;
+        left: 0;
+        position: absolute;
+        bottom: -2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .intro .intro-text {
+        width: 45%;
+    }
+}
+
+.cta {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: rgba(230, 167, 86, 0.9);
+}
+
+.cta .cta-inner {
+    position: relative;
+    padding: 3rem;
+    margin: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.cta .cta-inner:before {
+    border-radius: 0.5rem;
+    content: '';
+    position: absolute;
+    top: -0.5rem;
+    bottom: -0.5rem;
+    left: -0.5rem;
+    right: -0.5rem;
+    border: 0.25rem solid rgba(255, 255, 255, 0.85);
+}
+
+
+@media (min-width: 992px) {
+    .about-heading .about-heading-img {
+        position: relative;
+        z-index: 0;
+    }
+
+    .about-heading .about-heading-content {
+        margin-top: -5rem;
+        position: relative;
+        z-index: 1;
+    }
+}
+
+@media (min-width: 992px) {
+    .product-item .product-item-title {
+        position: relative;
+        z-index: 1;
+        margin-bottom: -3rem;
+    }
+
+    .product-item .product-item-img {
+        position: relative;
+        z-index: 0;
+        max-width: 60vw;
+    }
+
+    .product-item .product-item-description {
+        position: relative;
+        z-index: 1;
+        margin-top: -3rem;
+        max-width: 50vw;
+    }
+}
+
+.list-hours {
+    font-size: 0.9rem;
+}
+
+.list-hours .list-hours-item {
+    border-bottom: 1px solid rgba(230, 167, 86, 0.5);
+    padding-bottom: .25rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.list-hours .list-hours-item.today {
+    font-weight: bold;
+    color: #e6a756;
+}
+
+@media (min-width: 992px) {
+    .list-hours {
+        width: 50%;
+        font-size: 1.1rem;
+    }
+}
+
+.address strong {
+    font-size: 1.2rem;
+}
+
+.footer {
+    background-color: rgba(122, 99, 67, 0.84);
+}
+
+.text-primary {
+    color: #e6a756 !important;
+}
+
+.bg-primary {
+    background-color: #e6a756 !important;
+}
+
+.btn {
+    -webkit-box-shadow: 0px 3px 3px 0px rgba(33, 37, 41, 0.1);
+    box-shadow: 0px 3px 3px 0px rgba(33, 37, 41, 0.1);
+}
+
+.btn-primary {
+    background-color: #685ad9;
+    border-color: rgba(106, 96, 255, 0.78);
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background-color: #372c8c;
+    border-color: #685ad9;
+}
+
+.font-weight-light {
+    font-weight: 100 !important;
+}
+
+#mapa {
+    height: 1200px;
+    width: 1600px;
+}
+
+#pontoCaminhoVelho {
+    background: #caa057;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 300px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    position: absolute;
+    top: 155%;
+    left: 39.5%;
+    cursor: pointer;
+}
+
+#pontoCaminhoVelho:hover {
+    background: #ca7210;
+}
+
+#pontoCaminhoNovo {
+    background: #ca1113;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 300px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    position: absolute;
+    top: 144%;
+    left: 50.5%;
+    cursor: pointer;
+}
+
+#pontoCaminhoNovo:hover {
+    background: #3c0c0d;
+}
+
+#pontoCaminhoDiamantes {
+    background: #372c8c;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 300px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    position: absolute;
+    top: 125%;
+    left: 51%;
+    cursor: pointer;
+}
+
+#pontoCaminhoDiamantes:hover {
+    background: #151041;
+}
+
+#pontoCaminhoSabarabucu {
+    background: #204a10;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 300px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    position: absolute;
+    top: 105%;
+    left: 55%;
+    cursor: pointer;
+}
+
+#pontoCaminhoSabarabucu:hover {
+    background: #12240a;
+}
+
+.caminhoInform {
+    background-image: url("../img/texturaPapel.jpg");
+    width: 500px;
+    height: 290px;
+    position: fixed;
+    display: none;
+    margin: 1rem;
+    border: #e6a756;
+    border: 5px solid;
+}
+
+.caminhoInform h2 {
+    color: rgba(88, 122, 187, 0.65);
+    font-family: "Arial Black", sans-serif;
+    display: block;
+    font-size: 2rem;
+    font-weight: 100;
+    margin: 1rem;
+
+}
+
+.caminhoInform p {
+    font-family: "Berlin Sans FB";
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+
+#caminhoVelhoInform {
+    top: 30%;
+    left: 4%;
+}
+
+#caminhoNovoInform {
+    top: 30%;
+    left: 60%;
+}
+
+#caminhoDiamanteInform {
+    top: 15%;
+    left: 15%;
+}
+
+#caminhoSabarabucuInform {
+    top: 10%;
+    left: 65%;
+}
+
+.btncaminhoInform {
+    float: right;
+}
+
+.cliqueInform {
+    color: #587abb;
+}
+
+
+.imgCaminho{
+    background-size:cover;
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top: 7.5%;
+    left: 75%;
+    overflow: hidden;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#imgCaminhoSabarabucu{
+    background: url("../img/data1/images/caminhoSabarabucu.jpg");
+}
+#imgCaminhoVelho{
+    background: url("../img/data1/images/caminho velho.jpg");
+}
+#imgCaminhoNovo{
+    background: url("../img/data1/images/Caminho Novo.jpg");
+}
+#imgCaminhoDiamante{
+    background: url("../img/data1/images/caminhoDiamantes.jpg");
+}
+
+.textoAbrirMapa{
+    position: absolute;
+    top: 2%;
+    left: 78.5%;
+    color: #587abb;
+}
+
+.imgMapaCaminho{
+    width: 100%;
+    height: 150%;
+}

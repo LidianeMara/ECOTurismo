@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="Eduardo Tadeu, Gustavo Henrique" content="">
+    <meta name="Lidiane Mara, Lucas Macedo" content="">          <link rel="shortcut icon" type="image/png" href="logo.png"/>
 
     <title>ECOTurismo</title>
 
@@ -28,27 +28,23 @@
 </head>
 
 <body>
-<div id="topo">
-    <h1 class="site-heading text-center text-white d-none d-lg-block">
-        <span class="site-heading-upper text-primary mb-3">Caminho Novo</span>
-        <span class="site-heading-lower">Cidades</span>
-    </h1>
-    <div>
-        <p class="textoAbrirMapa">Clique para abrir o mapa </p>
-        <button class="imgCaminho"  id="imgCaminhoNovo" data-toggle="modal" data-target="#myModal">  </button>
-    </div>
-</div>
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
 
     <div class="container">
+        <div class="img-left">
+            <a href="index.html">                 <img class="logo" src="http://www.pedradeparaibuna.com/wp-content/uploads/2016/07/ER_logo.png" />             </a>
+            <div style="display: inline-block; margin-left: 80px;">
+                <h2>ECOTURISMO</h2>
+                <h4>ESTRADA REAL</h4>
+            </div>
+        </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
 
-            <button class="btn btn-primary" onclick=window.location.assign("CidadesCaminhoVelho.html") >Caminho Velho</button>
 
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item px-lg-4">
@@ -60,14 +56,15 @@
                     <span class="sr-only">(current)</span>
                 </li>
                 <li class="nav-item active  px-lg-4">
-                    <a class="nav-link text-uppercase text-expanded" href="CidadesCaminhoVelho.html">Cidades</a>
+                    <a class="nav-link text-uppercase text-expanded" href="Caminhos.html">Caminhos</a>
                 </li>
             </ul>
 
-            <button  class="btn btn-primary" onclick=window.location.assign("CidadesCaminhoDiamantes.html") >Caminho dos Diamantes</button>
         </div>
     </div>
 </nav>
+
+<div class="nome-caminho-atual">CAMINHO NOVO</div>
 
 <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
@@ -79,7 +76,7 @@
     </div>
 </div>
 
-<div id="wowslider-container1">
+<div class="wowslider-container1">
     <div class="ws_images"><ul>
         <li><img src="img/data1/images/lavrasNovas.jpg" alt="LavrasNovas" title="Lavras Novas" id="wows1_0"/>
             <p style="font-family: OpenSans-Bold,serif; font-size: 95%; color: rgba(148,202,255,0.92)">
@@ -136,13 +133,6 @@
     </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">html5 slider</a> by WOWSlider.com v8.8</div>
     <div class="ws_shadow"></div>
 </div>
-
-
-<footer class="footer text-faded text-center py-5">
-    <div class="container">
-        <p class="m-0 small" style="color: #869e79">Copyright &copy; PUCMINAS 2018</p>
-    </div>
-</footer>
 
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>

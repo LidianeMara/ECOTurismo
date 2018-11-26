@@ -1,4 +1,4 @@
-# Minha Vacina #
+# Ecoturismo Estrada Real #
 **Contexto:** Projeto desenvolvido para a disciplina Interação Humano-Computador por alunos do curso de Engenharia de Software na PUC Minas.
 
 **Desenvolvedores Originais:** Eduardo Tadeu e Gustavo Henrique 
